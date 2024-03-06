@@ -26,175 +26,6 @@ background-position: center;
 background-repeat: no-repeat;
 }
 
-.navbar-nav .nav-link {
-font-size: 20px;
-}
-
-.navbar-nav a {
-text-decoration: none;
-color: black;
-transition: color 0.5s;
-margin-right: 25px;
-}
-
-.navbar-nav a.active,
-.navbar-nav a.active:hover {
-background-color: #FF597B !important;
-border-radius: 3px;
-}
-
-.navbar-nav a:hover {
-background-color: #FF8DF5;
-border-radius: 3px;
-}
-
-.kotak1 {
-width: 100%;
-}
-
-nav {
-margin-bottom: 5px;
-border: outset #EFB9BF;
-border-radius: 5px;
-}
-
-.banner {
-margin-bottom: 5px;
-border: outset #EFB9BF;
-border-radius: 5px;
-}
-
-.banner img {
-display: block;
-width: 100%;
-height: 340px;
-}
-
-.kotak {
-padding: 10px;
-margin-bottom: 10px;
-background-color: #F3BCD1;
-border: outset #EFB9BF;
-border-radius: 5px;
-}
-
-.kotak h3 {
-background-color: #FF597B;
-color: white;
-text-align: center;
-padding: 10px;
-margin-bottom: 13px;
-font-size: 14px;
-}
-
-.kotak h2 {
-text-align: center;
-font-size: 20px;
-color: #FF597B;
-}
-
-.kotak img {
-display: block;
-width: 50%;
-margin-bottom: 10px;
-}
-
-.kotak p {
-margin-bottom: 10px;
-text-align: left;
-}
-
-.menu-kiri {
-width: 265px;
-margin-right: 10px;
-float: left;
-}
-
-
-.menu-tengah {
-width: 560px;
-margin-right: 10px;
-float: left;
-}
-
-.menu-tengah h3 {
-background: none;
-color: crimson;
-margin-bottom: 0;
-}
-
-.tanggal-posting {
-color: gray;
-text-align: right;
-font-size: 12px;
-margin-bottom: 10px;
-display: block;
-}
-
-.tombol {
-display: block;
-text-decoration: none;
-padding: 10px;
-width: 120px;
-color: white;
-border-radius: 5px;
-text-align: center;
-}
-
-.tombol:hover {
-background-color: #FF8FB1;
-transition-duration: 0.5s;
-}
-
-.tombol-pesan {
-background-color: #446A46;
-}
-
-.tombol-lengkap {
-background-color: #FF597B;
-}
-
-.menu-kanan {
-width: 265px;
-float: left;
-}
-
-.menu-kanan,
-.menu-kiri,
-.menu-tengah {
-margin-bottom: 15px;
-}
-
-footer {
-clear: both;
-padding: 5px;
-text-align: center;
-background-color: #F3BCD1;
-border: outset #EFB9BF;
-border-radius: 5px;
-}
-
-.menu-artikel ul {
-list-style-type: none;
-}
-
-.menu-artikel ul li a {
-text-decoration: none;
-color: black;
-display: block;
-padding: 13px;
-border-bottom: 1px solid rgb(0, 0, 0);
-margin-bottom: 12px;
-text-align: left;
-font-size: 16px;
-}
-
-.menu-artikel ul li a:hover {
-color: #FF597B;
-border-bottom: 5px double #FF597B;
-transition-duration: 0s;
-}
-
 .kotak {
 text-align: center;
 }
@@ -242,47 +73,6 @@ border-block-color: #886D6E;
 opacity: 0.9;
 }
 
-/*untuk tablet*/
-@media screen and (max-width:1080px) {
-.badan-utama {
-    width: 100%;
-}
-
-.menu-kiri {
-    width: 25%;
-}
-
-.menu-tengah {
-    width: 68%;
-    float: right;
-}
-
-.menu-kanan {
-    clear: both;
-    float: none;
-    width: 100%;
-}
-}
-
-/*untuk android*/
-@media screen and (max-width:780px) {
-
-header h2,
-header p {
-    text-align: center;
-}
-
-.menu-kiri,
-.menu-kanan,
-.menu-tengah {
-    float: none;
-    width: 100%;
-}
-
-.navigasi li {
-    float: none;
-}
-
 .card {
     width: 15;
 }
@@ -307,8 +97,7 @@ iframe {
     width: 419px;
     height: 300px;
     border: 1px;
-}
-} </style>
+}</style>
 </head>
 
 <body>
@@ -317,9 +106,8 @@ iframe {
         <h1>E-Book</h1>
     </div>
     <div class="col-md-3">
-        <a link href="/Pages/MenuVal.html" class="card-link">
         <div class="card" style="width: 15rem;">
-            <img url="https://cdn.gramedia.com/uploads/picture_meta/2023/2/14/iddphd9rbufdfjabf4owuf.jpg" class="card-img-top" style="max-height: 300px;">
+            <img src="https://cdn.gramedia.com/uploads/picture_meta/2023/2/14/iddphd9rbufdfjabf4owuf.jpg" class="card-img-top" style="max-height: 300px;">
             <div class="card-body">
             <h5 class="card-title">The Girl who Fell Beneath the Sea</h5>
             <p class="card-text">Badai mematikan telah merusak tanah kelahiran Mina selama beberapa generasi. Banjir menyapu seluruh desa, sementara perang berdarah dikobarkan untuk memperebutkan sumber daya yang tersisa.
@@ -329,9 +117,8 @@ iframe {
         </a>
     </div>
     <div class="col-md-3">
-        <a link href="/Pages/MenuMat.html" class="card-link">
         <div class="card" style="width: 15rem;">
-            <img url="https://cdn.gramedia.com/uploads/items/9786022962168_adolf_hitler_biografi_kospirasi_kontroversi.jpg" class="card-img-top" style="max-height: 300px;">
+            <img src="https://cdn.gramedia.com/uploads/items/9786022962168_adolf_hitler_biografi_kospirasi_kontroversi.jpg" class="card-img-top" style="max-height: 300px;">
             <div class="card-body">
             <h5 class="card-title">Adolf Hitler : Biografi,Konspirasi & Kontroversi</h5>
             <p class="card-text">Kehidupan Adolf Hitler pada masa Perang Dunia II adalah cerminan dirinya ketika masih kecil.</p>
@@ -340,9 +127,8 @@ iframe {
         </a>
     </div>
     <div class="col-md-3">
-        <a link href="/Pages/MenuMoc.html" class="card-link">
         <div class="card" style="width: 15rem;">
-            <img url="https://cdn.gramedia.com/uploads/picture_meta/2024/2/7/heb6pwq9z6jtiwgee7p8ac.jpg" class="card-img-top" style="max-height: 300px;">
+            <img src="https://cdn.gramedia.com/uploads/picture_meta/2024/2/7/heb6pwq9z6jtiwgee7p8ac.jpg" class="card-img-top" style="max-height: 300px;">
             <div class="card-body">
             <h5 class="card-title">Seni Berperang (The Art of War)</h5>
             <p class="card-text">Buku ini membawa kita ke dalam pikiran seorang ahli strategi militer abad ke-5 SM</p>
