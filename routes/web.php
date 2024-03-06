@@ -19,4 +19,7 @@ Route::get('/', function () {
 
 Route::get('daftarBuku', function () {
     return view('daftarBuku');
+  
+Route::get('/login', function () {
+    return view('login');
 });
