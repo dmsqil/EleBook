@@ -17,9 +17,14 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('daftarBuku', function () {
+Route::get('/register', function () {
+    return view('register');
+});
+
+Route::get('/daftarBuku', function () {
     return view('daftarBuku');
-  
+});
+
 Route::get('/login', function () {
     return view('login');
 });
